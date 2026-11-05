@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Temporary test outputs
+test/output
+
+# Non-code PRDs and design assets
+PRD_*.md
+product_framework.md
+pixel_matrix_studio_ai_plan.md
+main.png
+*.jpg
+*.jpeg
+*.png
+*.gif
+!src/**
